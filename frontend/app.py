@@ -12,6 +12,8 @@ st.set_page_config(page_title="URL Shortener", page_icon="🔗")
 
 st.title("🔗 URL Shortener")
 
+
+
 long_url = st.text_input("Enter a long URL")
 
 if st.button("Shorten URL"):
